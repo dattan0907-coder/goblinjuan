@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "traveler"
+version = "1.0.0"
+displayName = "Dead Traveler Skeleton"
+description = '''
+Dead Traveler Skeleton mob with sword and buckler, animated with GeckoLib.
+'''
+
+[[dependencies.traveler]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.220,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.traveler]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.traveler]]
+modId = "geckolib"
+type = "required"
+versionRange = "[4.7,)"
+ordering = "AFTER"
+side = "BOTH"
